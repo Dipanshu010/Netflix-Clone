@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Login Page</title>
+    <link rel="stylesheet" href="sr.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="logo">
+                <a href="#"><img src="https://www.freepnglogos.com/uploads/netflix-logo-0.png" alt="logo"></a>
+            </div>
+        </div>
+        <div class="login_body">
+            <div class="login_box">
+                <h2>Sign In</h2>
+                <form action="#" onsubmit="return validation()" class="bg-light">
+                    <div class="input_wrap">
+                        <input type="text" placeholder="Email or Phone number" class="form-control" id="user"
+                            autocomplete="off">
+                            <span id="username" class="text-danger font-weight-regular"> </span>
+                            
+                            </span>
+
+                    </div>
+                    <div class="input_wrap">
+                        <input  type="password" name="pass" class="form-control" id="pass" autocomplete="off"
+                            placeholder="Password">
+                            <span id="passwords" class="text-danger font-weight-regular">
+
+                    </div>
+                    <div class="input_wrap">
+                        <button class="btn btn-success" autocomplete="off" style="cursor:pointer;"><a href ="host.html">Sign In</a></button>
+                    </div>
+                    <div class="suport">
+                        <div class="remember">
+                            <span><input type="checkbox"></span>
+                            <span>Remember me</span>
+                        </div>
+                        <div class="need_help">
+                            Need Help?
+                        </div>
+                    </div>
+                    <div class="login_footer">
+                        <div class="login_facebook">
+                            <span><img
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/900px-Facebook_f_logo_%282019%29.svg.png?20200820101156"
+                                    alt="facebook" style="width:30px;height:30px"></span><br><br><br>
+                            <span><a href="https://www.facebook.com/">Login with Facebook<a></span>
+                        </div><br><br><br><br>
+                        <div class="sign_up">
+                            <p>New To Netflix ?<a href="index.html" target="_blank">Sign up Now</a></p>
+                        </div><br>br>
+                        <div class="terms">
+                            <p>This page is created for education purpose &nbsp;<a href="#">Learn More</a></p>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer__row__1">
+            <h4>Questions? Call 000-800-040-1843</h4>
+        </div>
+        <div class="footer__row__2">
+            <div class="column__1">
+                <p>FAQ</p>
+                <p>Investor Relations</p>
+                <p>Privacy</p>
+                <p>Speed Test</p>
+            </div>
+            <div class="column__2">
+                <p>Help Centre</p>
+                <p>Jobs</p>
+                <p>Cookie Preferences</p>
+                <p>Legal Notices</p>
+            </div>
+            <div class="column__3">
+                <p>Account</p>
+                <p>Ways to Watch</p>
+                <p>Corporate Information</p>
+                <p>Only on Netflix</p>
+            </div>
+            <div class="column__4">
+                <p>Media Centre</p>
+                <p>Terms of Use</p>
+                <p>Contact Us</p>
+            </div>
+        </div>
+        <div class="footer__row__3">
+            <div class="dropdown__container">
+                <i class="fas fa-globe"></i>
+                <select name="languages" id="languagesSelect" class="language__drop__down">
+                    <option value="english" selected>English</option>
+                    <option value="hindi">हिन्दी</option>
+                </select>
+            </div>
+        </div>
+        <div class="footer__row__4">
+            <p>Netflix India</p>
+        </div>
+    </footer>
+    <script src="text.js"></script>
+
+</body>
+
+</html>
